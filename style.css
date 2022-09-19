@@ -213,6 +213,7 @@
     margin: 0 auto;
     background-color: #CECECE;
     margin-left: 5px;
+    border-radius: 10px;
 }
 
 .project__caption {
@@ -336,11 +337,10 @@ justify-content: space-around;
     border-radius: 10px;
 }
 
-.skcroll {
+.middle__project {
     overflow-y: auto;
-    height: 400px;
-    width: 6px;
-   
+    height: 450px;
+    border-radius: 10px;
 }
 
 .right__project{
