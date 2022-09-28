@@ -12,8 +12,8 @@
 <body>
     <header class="header" id="header">
         <div class="header__container" id="header">
-            <div class="header__top">
-                <div class="header__project">
+            <div class="header__wraper">
+                <div class="header__top">
                     <h1 class="header__logo">VM</h1>
                     <nav class="header__navbar">
                         <a class="header__link" href="#header">
@@ -40,7 +40,9 @@
             </div>
     </header>
     <div class="main__block">
-        <img class="tajam__image" src="./Rectangle 5.png">
+        <div class="main__image">
+            <img class="tajam__image" src="./Rectangle 5.png">
+        </div>
         <div class="main__project">
             <h1 class="main__title">Tajam</h1>
             <div class="main__description">
@@ -95,16 +97,16 @@
                 <div class="project__blocks">
                     <div class="income__block">
                         <div class="red__block">
-                            <p class=project__block>13$</p>
+                            <p class="project__block expence">13$</p>
                         </div>
                         <div class="green__block">
-                            <p class=project__block>13$</p>
+                            <p class="project__block income">13$</p>
                         </div>
                     </div>
                 </div>
                 <div class="project__input">
                     <input class="name__input" type="text" placeholder="Название">
-                    <input class="number__input" type="text" placeholder="Число">
+                    <input class="number__input" type="number" placeholder="Число">
                     <button class="add__button">Добавить</button>
                 </div>
             </div>
@@ -131,12 +133,21 @@
                         <br>Здесь полное описание
                         <br>твоих навыков полученных
                     </p>
-
                 </div>
             </div>
         </div>
         </div>
     </section>
+    <footer class="footer">
+        <div class="footer__left">
+            <input class="footer__input" type="text" placeholder="Имя">
+            <input class="mail__input" type="text" placeholder="Маил">
+            <button class="footer__button">отправить</button>
+        </div>
+        <div class="footer__right">
+            <img class="footer__image" src="./footer__image.png" alt="">
+        </div>
+    </footer>
 </body>
 <script src="./Profile.JS"></script>
 <script src="./three.min"></script>
